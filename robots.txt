@@ -1,0 +1,6 @@
+# fastread — robots.txt
+# ⚠️ Yayına alırken Sitemap satırındaki domaini kendi domaininle değiştir.
+User-agent: *
+Allow: /
+
+Sitemap: https://fastread.app/sitemap.xml

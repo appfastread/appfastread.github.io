@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>fastread — Türkçe Hız Okuma Uygulaması | RSVP ile Daha Hızlı Oku</title>
+  <meta name="description" content="fastread; RSVP tekniği, ORP vurgulama, tempo çubuğu ve okuma egzersizleriyle okuma hızını ve odağını artıran Türkçe hız okuma uygulaması. Çevrimdışı çalışır, reklamsız." />
+  <meta name="keywords" content="hız okuma, hızlı okuma uygulaması, RSVP, speed reading, okuma hızı, odaklanma, Türkçe okuma uygulaması" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0066d6" />
+  <meta name="author" content="fastread" />
+  <!-- ⚠️ Yayına alırken kendi domaininle değiştir (canonical + og:url + sitemap) -->
+  <link rel="canonical" href="https://fastread.app/" />
+  <link rel="alternate" hreflang="tr" href="https://fastread.app/" />
+  <link rel="alternate" hreflang="en" href="https://fastread.app/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://fastread.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="fastread" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:title" content="fastread — Türkçe Hız Okuma Uygulaması" />
+  <meta property="og:description" content="RSVP, tempo çubuğu ve egzersizlerle okuma hızını ve odağını artır. Çevrimdışı, reklamsız, TR + EN." />
+  <meta property="og:url" content="https://fastread.app/" />
+  <meta property="og:image" content="https://fastread.app/assets/screenshot-1.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="fastread — Türkçe Hız Okuma Uygulaması" />
+  <meta name="twitter:description" content="RSVP, tempo ve egzersizlerle daha hızlı oku, daha çok anla." />
+  <meta name="twitter:image" content="https://fastread.app/assets/screenshot-1.png" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Yapılandırılmış veri (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "fastread",
+    "operatingSystem": "iOS",
+    "applicationCategory": "EducationApplication",
+    "description": "RSVP, ORP vurgulama, tempo çubuğu ve okuma egzersizleriyle okuma hızını ve odağını artıran Türkçe hız okuma uygulaması.",
+    "inLanguage": ["tr", "en"],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
+    "publisher": { "@type": "Organization", "name": "fastread", "email": "destek@fastread.app" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "fastread nasıl çalışır?", "acceptedAnswer": { "@type": "Answer", "text": "Kelimeleri gözünün odak noktasında tek tek göstererek (RSVP) ve ORP vurgusuyla okuma hızını artırır. WPM testiyle başlar, tempo ve egzersizlerle gelişirsin." } },
+      { "@type": "Question", "name": "Çevrimdışı çalışır mı?", "acceptedAnswer": { "@type": "Answer", "text": "Okuma egzersizlerinin çoğu çevrimdışı çalışır; ilerlemen internet geldiğinde hesabınla senkronlanır." } },
+      { "@type": "Question", "name": "Kendi kitaplarımı ekleyebilir miyim?", "acceptedAnswer": { "@type": "Answer", "text": "Evet. PDF/EPUB dosyaları ekleyebilir veya kamerayla sayfa tarayıp (OCR) metne çevirebilirsin." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="wordmark" aria-label="fastread ana sayfa">fastread</a>
+      <nav class="nav-links" aria-label="Ana menü">
+        <a class="hide-sm" href="#features">Özellikler</a>
+        <a class="hide-sm" href="#how">Nasıl çalışır</a>
+        <a class="hide-sm" href="#faq">SSS</a>
+        <a class="hide-sm" href="support.html">Destek</a>
+        <span class="lang-switch"><a class="active" href="index.html">TR</a><span class="sep">·</span><a href="en/index.html" hreflang="en">EN</a></span>
+        <a class="btn btn-primary" href="#get" style="padding:.55rem 1.1rem;font-size:.9rem">İndir</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="pill">⚡ Türkçe hız okuma</span>
+        <h1>Daha hızlı oku,<br />daha çok anla.</h1>
+        <p class="lead">fastread; kelimeleri gözünün odağına getiren RSVP tekniği, tempo çubuğu ve bilimsel okuma egzersizleriyle okuma hızını ve odaklanmanı artırır.</p>
+        <div class="hero-cta">
+          <a class="btn btn-accent" href="#get">App Store'da yakında</a>
+          <a class="btn btn-ghost" href="#features">Özellikleri keşfet</a>
+        </div>
+        <div class="trust">
+          <span>✅ <b>Çevrimdışı</b> çalışır</span>
+          <span>🎨 <b>3</b> tema</span>
+          <span>🌐 <b>TR + EN</b></span>
+          <span>🚫 <b>Reklamsız</b></span>
+        </div>
+      </div>
+
+      <div class="rsvp-demo" aria-hidden="true">
+        <div class="rsvp-word" id="rsvpWord">hız<span class="orp">l</span>ı</div>
+        <div class="rsvp-track"><div class="rsvp-fill" id="rsvpFill"></div></div>
+        <div class="rsvp-meta"><span id="rsvpWpm">400</span> KDK · ORP vurgulu</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÖZELLİKLER -->
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <h2>Okumayı yeniden tasarladık</h2>
+        <p>Tek bir uygulamada, hızını adım adım artıran bütün araçlar.</p>
+      </div>
+      <div class="grid features">
+        <article class="card"><div class="ico">⚡</div><h3>RSVP + ORP</h3><p>Kelimeler tek tek odak noktasında belirir; optimal tanıma noktası (ORP) vurgusuyla göz gezinmeden okursun.</p></article>
+        <article class="card"><div class="ico">🎯</div><h3>Tempo &amp; Metronom</h3><p>Sihirli Hız çubuğu ve vuruş sesiyle sabit bir ritimde, geri dönmeden ilerlersin.</p></article>
+        <article class="card"><div class="ico">🧠</div><h3>Okuma Egzersizleri</h3><p>Gruplama, gölgeleme, odaklı okuma ve yakalama alıştırmalarıyla algını genişletirsin.</p></article>
+        <article class="card"><div class="ico">👁️</div><h3>Algı Genişletme</h3><p>Çevresel görüş ve çoklu-odak oyunlarıyla bir bakışta daha çok kelime yakalarsın.</p></article>
+        <article class="card"><div class="ico">📚</div><h3>Kütüphane &amp; OCR</h3><p>Kendi PDF/EPUB dosyalarını ekle, kamerayla sayfa tara ve dilediğin metni oku.</p></article>
+        <article class="card"><div class="ico">🏆</div><h3>İlerleme &amp; Lig</h3><p>WPM testi, günlük seri, raporlar ve liderlik tablosuyla gelişimini takip et.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE -->
+  <section class="showcase" style="background:linear-gradient(180deg,#fff,#f6f9fb)">
+    <div class="container">
+      <div class="showrow">
+        <div class="show-copy">
+          <span class="show-badge">RSVP Motoru</span>
+          <h3>Gözün gezmeden, kelime kelime</h3>
+          <p>Klasik okumada gözün satırlarda ileri-geri sıçrar. fastread kelimeleri tek bir odak noktasında gösterir ve her kelimenin en kolay tanınan harfini (ORP) vurgular — böylece daha az yorulur, daha hızlı ilerlersin.</p>
+        </div>
+        <div class="show-media">
+          <div class="rsvp-demo" style="width:100%;max-width:340px;background:var(--ink);border-color:#222d36" aria-hidden="true">
+            <div class="rsvp-word" style="color:#fff">oku<span class="orp">m</span>a</div>
+            <div class="rsvp-track"><div class="rsvp-fill" style="width:64%"></div></div>
+            <div class="rsvp-meta">450 KDK · ORP vurgulu</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="showrow rev">
+        <div class="show-media">
+          <figure class="phone" style="margin:0">
+            <div class="screen"><img src="assets/screenshot-1.png" alt="fastread ayarlar ve kişiselleştirme ekranı — dil, tema, bionic okuma" loading="lazy" /></div>
+          </figure>
+        </div>
+        <div class="show-copy">
+          <span class="show-badge">Senin Tarzın</span>
+          <h3>Üç tema, iki dil, tam kontrol</h3>
+          <p>Açık, koyu ve sepya temalar; TR + EN dil desteği; bionic okuma, yazı boyutu, tempo ve grup boyutu ayarları. fastread'i tam sana göre ayarla ve odağını koru.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- İSTATİSTİK BANDI -->
+  <section class="stats">
+    <div class="container">
+      <div class="grid">
+        <div class="stat"><div class="n">6+</div><div class="l">Okuma egzersizi türü</div></div>
+        <div class="stat"><div class="n">3</div><div class="l">Tema (açık/koyu/sepya)</div></div>
+        <div class="stat"><div class="n">TR·EN</div><div class="l">Çift dil desteği</div></div>
+        <div class="stat"><div class="n">0</div><div class="l">Reklam &amp; takip</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NASIL ÇALIŞIR -->
+  <section id="how">
+    <div class="container">
+      <div class="section-head"><h2>Üç adımda başla</h2><p>Dakikalar içinde ilk seansını tamamla.</p></div>
+      <div class="grid steps">
+        <div class="step"><div class="num">1</div><h3>Hızını ölç</h3><p>Kısa WPM testiyle başlangıç okuma hızını belirle.</p></div>
+        <div class="step"><div class="num">2</div><h3>Antrenman yap</h3><p>RSVP, tempo ve egzersizlerle her gün birkaç dakika çalış.</p></div>
+        <div class="step"><div class="num">3</div><h3>İlerlemeni gör</h3><p>Raporlar ve seri takibiyle hızının nasıl arttığını izle.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERİ -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-head"><h2>Uygulamadan</h2><p>Sade, odaklı ve üç temalı arayüz — planlamadan egzersizlere, kütüphaneden raporlara.</p></div>
+      <div class="phones">
+        <figure class="phone" style="margin:0">
+          <div class="screen"><img src="assets/shot-plan.png" alt="fastread günlük plan ekranı — haftalık takvim, hedefler ve ilerleme" loading="lazy" /></div>
+          <figcaption class="cap">Günlük plan &amp; hedefler</figcaption>
+        </figure>
+        <figure class="phone" style="margin:0">
+          <div class="screen"><img src="assets/shot-trainings.png" alt="fastread egzersizler ekranı — RSVP, gruplama ve gölgeleme modülleri, seviye ilerlemesi" loading="lazy" /></div>
+          <figcaption class="cap">Egzersizler &amp; seviye</figcaption>
+        </figure>
+        <figure class="phone" style="margin:0">
+          <div class="screen"><img src="assets/shot-reports.png" alt="fastread raporlar ekranı — okuma hızı (WPM), çalışma süresi ve haftalık grafik" loading="lazy" /></div>
+          <figcaption class="cap">İlerleme raporları</figcaption>
+        </figure>
+        <figure class="phone" style="margin:0">
+          <div class="screen"><img src="assets/shot-library.png" alt="fastread kütüphane ekranı — kitaplar, dökümanlar ve popüler içerikler" loading="lazy" /></div>
+          <figcaption class="cap">Kütüphane</figcaption>
+        </figure>
+        <figure class="phone" style="margin:0">
+          <div class="screen"><img src="assets/shot-lessons.png" alt="fastread eğitimler ekranı — hız okuma kursu bölümleri" loading="lazy" /></div>
+          <figcaption class="cap">Eğitim videoları</figcaption>
+        </figure>
+        <figure class="phone" style="margin:0">
+          <div class="screen"><img src="assets/shot-goals.png" alt="fastread günlük hedef ayarları — drill, okuma, ders ve hatırlatıcı bildirimleri" loading="lazy" /></div>
+          <figcaption class="cap">Günlük hedefler</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- SSS -->
+  <section id="faq" style="background:linear-gradient(180deg,#f6f9fb,#fff)">
+    <div class="container">
+      <div class="section-head"><h2>Sık sorulan sorular</h2><p>Aklına takılanlar burada.</p></div>
+      <div class="home-faq">
+        <details class="faq"><summary>fastread nasıl çalışır?</summary><p>Kelimeleri gözünün odak noktasında tek tek göstererek (RSVP) ve ORP vurgusuyla okuma hızını artırır. WPM testiyle başlar, tempo ve egzersizlerle gelişirsin.</p></details>
+        <details class="faq"><summary>Çevrimdışı çalışır mı?</summary><p>Okuma egzersizlerinin çoğu çevrimdışı çalışır; ilerlemen internet geldiğinde hesabınla senkronlanır.</p></details>
+        <details class="faq"><summary>Kendi kitaplarımı ekleyebilir miyim?</summary><p>Evet. PDF/EPUB dosyaları ekleyebilir veya kamerayla sayfa tarayıp (OCR) metne çevirebilirsin.</p></details>
+        <details class="faq"><summary>Ücretsiz mi?</summary><p>Temel özellikler ücretsizdir; ileri egzersizler ve sınırsız içerik için premium abonelik sunulur.</p></details>
+        <details class="faq"><summary>Hangi cihazları destekliyor?</summary><p>iPhone ve iPad (iOS). İlerlemen hesabınla cihazlar arasında senkronlanır.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="get" class="cta">
+    <div class="container">
+      <h2>Okuma hızını bugün artırmaya başla</h2>
+      <p>fastread çok yakında App Store'da. Yayınlandığında ilk sen haberdar ol.</p>
+      <a class="btn btn-ghost" href="support.html">Bize ulaş</a>
+      <div><span class="badge-soon">🍎 App Store · Çok yakında</span></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col" style="max-width:280px">
+          <span class="wordmark">fastread</span>
+          <p style="margin-top:10px;font-size:.92rem">Türkçe hız okuma uygulaması. Daha hızlı oku, daha çok anla.</p>
+        </div>
+        <div class="footer-col"><h4>Ürün</h4><ul><li><a href="#features">Özellikler</a></li><li><a href="#how">Nasıl çalışır</a></li><li><a href="#faq">SSS</a></li></ul></div>
+        <div class="footer-col"><h4>Yasal</h4><ul><li><a href="privacy.html">Gizlilik Politikası</a></li><li><a href="terms.html">Kullanım Şartları</a></li></ul></div>
+        <div class="footer-col"><h4>Destek</h4><ul><li><a href="support.html">Yardım Merkezi</a></li><li><a href="mailto:destek@fastread.app">destek@fastread.app</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="yr">2026</span> fastread. Tüm hakları saklıdır.</span>
+        <span>Made with ⚡ for readers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var words = "fastread ile daha hızlı okumak artık çok kolay her gün birkaç dakika yeter".split(" ");
+      var i = 0;
+      var wordEl = document.getElementById("rsvpWord");
+      var fillEl = document.getElementById("rsvpFill");
+      if (wordEl) {
+        var orpIndex = function (w) { return Math.max(0, Math.min(w.length - 1, Math.floor((w.length - 1) * 0.35))); };
+        var esc = function (s) { return (s || "").replace(/[&<>]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; }); };
+        var show = function () {
+          var w = words[i % words.length], o = orpIndex(w);
+          wordEl.innerHTML = esc(w.slice(0, o)) + '<span class="orp">' + esc(w[o]) + "</span>" + esc(w.slice(o + 1));
+          if (fillEl) fillEl.style.width = (((i % words.length) + 1) / words.length) * 100 + "%";
+          i++;
+        };
+        show(); setInterval(show, 380);
+      }
+      var y = document.getElementById("yr"); if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>

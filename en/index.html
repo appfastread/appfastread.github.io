@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>fastread — Speed Reading App | Read Faster with RSVP</title>
+  <meta name="description" content="fastread boosts your reading speed and focus with RSVP, ORP highlighting, a pacing bar and reading exercises. Works offline, no ads." />
+  <meta name="keywords" content="speed reading, speed reading app, RSVP reader, reading speed, focus, faster reading" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0066d6" />
+  <meta name="author" content="fastread" />
+  <link rel="canonical" href="https://fastread.app/en/" />
+  <link rel="alternate" hreflang="tr" href="https://fastread.app/" />
+  <link rel="alternate" hreflang="en" href="https://fastread.app/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://fastread.app/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="fastread" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="tr_TR" />
+  <meta property="og:title" content="fastread — Speed Reading App" />
+  <meta property="og:description" content="Boost your reading speed and focus with RSVP, pacing and exercises. Offline, ad-free, TR + EN." />
+  <meta property="og:url" content="https://fastread.app/en/" />
+  <meta property="og:image" content="https://fastread.app/assets/screenshot-1.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="fastread — Speed Reading App" />
+  <meta name="twitter:description" content="Read faster, understand more with RSVP, pacing and exercises." />
+  <meta name="twitter:image" content="https://fastread.app/assets/screenshot-1.png" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="stylesheet" href="../styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "fastread",
+    "operatingSystem": "iOS",
+    "applicationCategory": "EducationApplication",
+    "description": "Speed reading app that boosts reading speed and focus with RSVP, ORP highlighting, a pacing bar and reading exercises.",
+    "inLanguage": ["en", "tr"],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "publisher": { "@type": "Organization", "name": "fastread", "email": "destek@fastread.app" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How does fastread work?", "acceptedAnswer": { "@type": "Answer", "text": "It shows words one at a time at your eye's focal point (RSVP) with ORP highlighting to boost reading speed. Start with a WPM test, then improve with pacing and exercises." } },
+      { "@type": "Question", "name": "Does it work offline?", "acceptedAnswer": { "@type": "Answer", "text": "Most reading exercises work offline; your progress syncs to your account when you're back online." } },
+      { "@type": "Question", "name": "Can I add my own books?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Add PDF/EPUB files or scan pages with your camera (OCR) to turn them into text." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="wordmark" aria-label="fastread home">fastread</a>
+      <nav class="nav-links" aria-label="Main menu">
+        <a class="hide-sm" href="#features">Features</a>
+        <a class="hide-sm" href="#how">How it works</a>
+        <a class="hide-sm" href="#faq">FAQ</a>
+        <a class="hide-sm" href="../support.html#en">Support</a>
+        <span class="lang-switch"><a href="../index.html" hreflang="tr">TR</a><span class="sep">·</span><a class="active" href="index.html">EN</a></span>
+        <a class="btn btn-primary" href="#get" style="padding:.55rem 1.1rem;font-size:.9rem">Get it</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="pill">⚡ Speed reading</span>
+        <h1>Read faster,<br />understand more.</h1>
+        <p class="lead">fastread boosts your reading speed and focus with the RSVP technique that brings words to your eye's focal point, a pacing bar and science-backed reading exercises.</p>
+        <div class="hero-cta">
+          <a class="btn btn-accent" href="#get">Coming soon on the App Store</a>
+          <a class="btn btn-ghost" href="#features">Explore features</a>
+        </div>
+        <div class="trust">
+          <span>✅ Works <b>offline</b></span>
+          <span>🎨 <b>3</b> themes</span>
+          <span>🌐 <b>TR + EN</b></span>
+          <span>🚫 <b>No ads</b></span>
+        </div>
+      </div>
+      <div class="rsvp-demo" aria-hidden="true">
+        <div class="rsvp-word" id="rsvpWord">read<span class="orp">i</span>ng</div>
+        <div class="rsvp-track"><div class="rsvp-fill" id="rsvpFill"></div></div>
+        <div class="rsvp-meta"><span>400</span> WPM · ORP highlighted</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <div class="section-head">
+        <h2>Reading, redesigned</h2>
+        <p>Every tool to grow your speed, step by step — in one app.</p>
+      </div>
+      <div class="grid features">
+        <article class="card"><div class="ico">⚡</div><h3>RSVP + ORP</h3><p>Words appear one at a time at a single focal point; the Optimal Recognition Point (ORP) is highlighted so your eyes don't wander.</p></article>
+        <article class="card"><div class="ico">🎯</div><h3>Pacing &amp; Metronome</h3><p>A magic pacer bar and a beat sound keep you at a steady rhythm — no going back.</p></article>
+        <article class="card"><div class="ico">🧠</div><h3>Reading Exercises</h3><p>Grouping, shadowing, focused reading and catching drills expand your perception.</p></article>
+        <article class="card"><div class="ico">👁️</div><h3>Perception Training</h3><p>Peripheral-vision and multi-focus games help you catch more words at a glance.</p></article>
+        <article class="card"><div class="ico">📚</div><h3>Library &amp; OCR</h3><p>Add your own PDF/EPUB files, scan pages with your camera and read any text.</p></article>
+        <article class="card"><div class="ico">🏆</div><h3>Progress &amp; League</h3><p>WPM test, daily streak, reports and a leaderboard to track your growth.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase" style="background:linear-gradient(180deg,#fff,#f6f9fb)">
+    <div class="container">
+      <div class="showrow">
+        <div class="show-copy">
+          <span class="show-badge">RSVP Engine</span>
+          <h3>Word by word, no wandering</h3>
+          <p>In ordinary reading your eyes jump back and forth across lines. fastread shows words at a single focal point and highlights each word's easiest-to-recognize letter (ORP) — so you tire less and move faster.</p>
+        </div>
+        <div class="show-media">
+          <div class="rsvp-demo" style="width:100%;max-width:340px;background:var(--ink);border-color:#222d36" aria-hidden="true">
+            <div class="rsvp-word" style="color:#fff">read<span class="orp">i</span>ng</div>
+            <div class="rsvp-track"><div class="rsvp-fill" style="width:64%"></div></div>
+            <div class="rsvp-meta">450 WPM · ORP highlighted</div>
+          </div>
+        </div>
+      </div>
+      <div class="showrow rev">
+        <div class="show-media">
+          <figure class="phone" style="margin:0">
+            <div class="screen"><img src="../assets/screenshot-1.png" alt="fastread settings and personalization screen — language, theme, bionic reading" loading="lazy" /></div>
+          </figure>
+        </div>
+        <div class="show-copy">
+          <span class="show-badge">Your Style</span>
+          <h3>Three themes, two languages, full control</h3>
+          <p>Light, dark and sepia themes; TR + EN support; bionic reading, font size, pacing and group-size settings. Tune fastread exactly to you and keep your focus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      <div class="grid">
+        <div class="stat"><div class="n">6+</div><div class="l">Reading exercise types</div></div>
+        <div class="stat"><div class="n">3</div><div class="l">Themes (light/dark/sepia)</div></div>
+        <div class="stat"><div class="n">TR·EN</div><div class="l">Bilingual support</div></div>
+        <div class="stat"><div class="n">0</div><div class="l">Ads &amp; tracking</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="container">
+      <div class="section-head"><h2>Start in three steps</h2><p>Finish your first session in minutes.</p></div>
+      <div class="grid steps">
+        <div class="step"><div class="num">1</div><h3>Measure your speed</h3><p>Set your baseline reading speed with a short WPM test.</p></div>
+        <div class="step"><div class="num">2</div><h3>Train</h3><p>Practice a few minutes a day with RSVP, pacing and exercises.</p></div>
+        <div class="step"><div class="num">3</div><h3>See your progress</h3><p>Watch your speed grow with reports and streak tracking.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <div class="section-head"><h2>From the app</h2><p>Clean, focused and three-themed — from planning to exercises, library to reports.</p></div>
+      <div class="phones">
+        <figure class="phone" style="margin:0"><div class="screen"><img src="../assets/shot-plan.png" alt="fastread daily plan screen — weekly calendar, goals and progress" loading="lazy" /></div><figcaption class="cap">Daily plan &amp; goals</figcaption></figure>
+        <figure class="phone" style="margin:0"><div class="screen"><img src="../assets/shot-trainings.png" alt="fastread trainings screen — RSVP, grouping and shadowing modules, level progress" loading="lazy" /></div><figcaption class="cap">Exercises &amp; level</figcaption></figure>
+        <figure class="phone" style="margin:0"><div class="screen"><img src="../assets/shot-reports.png" alt="fastread reports screen — reading speed (WPM), study time and weekly chart" loading="lazy" /></div><figcaption class="cap">Progress reports</figcaption></figure>
+        <figure class="phone" style="margin:0"><div class="screen"><img src="../assets/shot-library.png" alt="fastread library screen — books, documents and popular content" loading="lazy" /></div><figcaption class="cap">Library</figcaption></figure>
+        <figure class="phone" style="margin:0"><div class="screen"><img src="../assets/shot-lessons.png" alt="fastread lessons screen — speed reading course sections" loading="lazy" /></div><figcaption class="cap">Lesson videos</figcaption></figure>
+        <figure class="phone" style="margin:0"><div class="screen"><img src="../assets/shot-goals.png" alt="fastread daily goal settings — drills, reading, lessons and reminders" loading="lazy" /></div><figcaption class="cap">Daily goals</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="background:linear-gradient(180deg,#f6f9fb,#fff)">
+    <div class="container">
+      <div class="section-head"><h2>Frequently asked questions</h2><p>The essentials, answered.</p></div>
+      <div class="home-faq">
+        <details class="faq"><summary>How does fastread work?</summary><p>It shows words one at a time at your eye's focal point (RSVP) with ORP highlighting to boost reading speed. Start with a WPM test, then improve with pacing and exercises.</p></details>
+        <details class="faq"><summary>Does it work offline?</summary><p>Most exercises work offline; your progress syncs to your account when you're back online.</p></details>
+        <details class="faq"><summary>Can I add my own books?</summary><p>Yes. Add PDF/EPUB files or scan pages with your camera (OCR) to turn them into text.</p></details>
+        <details class="faq"><summary>Is it free?</summary><p>Core features are free; advanced exercises and unlimited content are offered via a premium subscription.</p></details>
+        <details class="faq"><summary>Which devices are supported?</summary><p>iPhone and iPad (iOS). Your progress syncs across devices via your account.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="get" class="cta">
+    <div class="container">
+      <h2>Start reading faster today</h2>
+      <p>fastread is coming soon to the App Store. Be the first to know when it launches.</p>
+      <a class="btn btn-ghost" href="../support.html#en">Contact us</a>
+      <div><span class="badge-soon">🍎 App Store · Coming soon</span></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col" style="max-width:280px">
+          <span class="wordmark">fastread</span>
+          <p style="margin-top:10px;font-size:.92rem">Speed reading app. Read faster, understand more.</p>
+        </div>
+        <div class="footer-col"><h4>Product</h4><ul><li><a href="#features">Features</a></li><li><a href="#how">How it works</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+        <div class="footer-col"><h4>Legal</h4><ul><li><a href="../privacy.html#en">Privacy Policy</a></li><li><a href="../terms.html#en">Terms of Service</a></li></ul></div>
+        <div class="footer-col"><h4>Support</h4><ul><li><a href="../support.html#en">Help Center</a></li><li><a href="mailto:destek@fastread.app">destek@fastread.app</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="yr">2026</span> fastread. All rights reserved.</span>
+        <span>Made with ⚡ for readers.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var words = "reading faster is now easy just a few minutes every day is enough".split(" ");
+      var i = 0;
+      var wordEl = document.getElementById("rsvpWord");
+      var fillEl = document.getElementById("rsvpFill");
+      if (wordEl) {
+        var orpIndex = function (w) { return Math.max(0, Math.min(w.length - 1, Math.floor((w.length - 1) * 0.35))); };
+        var esc = function (s) { return (s || "").replace(/[&<>]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; }); };
+        var show = function () {
+          var w = words[i % words.length], o = orpIndex(w);
+          wordEl.innerHTML = esc(w.slice(0, o)) + '<span class="orp">' + esc(w[o]) + "</span>" + esc(w.slice(o + 1));
+          if (fillEl) fillEl.style.width = (((i % words.length) + 1) / words.length) * 100 + "%";
+          i++;
+        };
+        show(); setInterval(show, 380);
+      }
+      var y = document.getElementById("yr"); if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
