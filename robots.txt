@@ -1,6 +1,6 @@
 # fastread — robots.txt
-# ⚠️ Yayına alırken Sitemap satırındaki domaini kendi domaininle değiştir.
+# Yayın adresi: https://appfastread.github.io (GitHub Pages)
 User-agent: *
 Allow: /
 
-Sitemap: https://fastread.app/sitemap.xml
+Sitemap: https://appfastread.github.io/sitemap.xml
